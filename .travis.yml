@@ -1,6 +1,7 @@
 language: c
 
 script:
+  - (cd bar && autoreconf -i && ./configure && make)
   - autoreconf -i
   - ./configure && make
   - make check
