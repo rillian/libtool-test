@@ -1,0 +1,9 @@
+AC_INIT([bar],[0.1])
+
+AM_INIT_AUTOMAKE([foreign])
+
+AM_PROG_LIBTOOL
+AM_PROG_CC_C_O
+
+AC_CONFIG_FILES([Makefile])
+AC_OUTPUT
